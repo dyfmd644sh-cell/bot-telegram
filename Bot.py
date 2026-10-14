@@ -20,9 +20,9 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 # НАСТРОЙКИ — БЕРУТСЯ ИЗ ПЕРЕМЕННЫХ ОКРУЖЕНИЯ RAILWAY
 # ============================================================
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0") or "0")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0") or "7863660412")
 
-DIAGNOSTIC_LINK = os.getenv("DIAGNOSTIC_LINK", "https://t.me/roman_psy")
+DIAGNOSTIC_LINK = os.getenv("DIAGNOSTIC_LINK", "https://t.me/ssevenwomen")
 CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/tihiy_gorizont")
 
 
@@ -156,7 +156,7 @@ QUESTIONS = [
     },
     {
         "id": "budget",
-        "text": "11. Ретрит стоит от 70 000 руб. Как тебе такой формат?",
+        "text": "11. Ретрит стоит от 30 000 руб. Как тебе такой формат?",
         "type": "choice",
         "options": [
             ("Готов оплатить", 3),
