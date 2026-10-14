@@ -1,3 +1,7 @@
+# bot.py — ТИХИЙ ГОРИЗОНТ
+# Установка: pip install -r requirements.txt
+# Запуск: python Bot.py
+
 import asyncio
 import logging
 import csv
