@@ -237,7 +237,7 @@ def options_kb(options, qid):
 def result_kb():
     kb = InlineKeyboardBuilder()
     kb.button(text="Записаться на диагностику", url=DIAGNOSTIC_LINK)
-    kb.button(text="Получить PDF-тест", callback_data="get_pdf")
+   
     kb.button(text="Подписаться на канал", url=CHANNEL_LINK)
     kb.adjust(1)
     return kb.as_markup()
