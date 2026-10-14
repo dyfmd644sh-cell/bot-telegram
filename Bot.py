@@ -24,8 +24,7 @@ ADMIN_ID = int(os.getenv("ADMIN_ID", "0") or "0")
 
 DIAGNOSTIC_LINK = os.getenv("DIAGNOSTIC_LINK", "https://t.me/roman_psy")
 CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/tihiy_gorizont")
-PDF_LINK = os.getenv("PDF_LINK", "https://your-site.ru/pdf")
-AUDIO_LINK = os.getenv("AUDIO_LINK", "https://your-site.ru/audio")
+
 
 LEADS_FILE = "leads.csv"
 
